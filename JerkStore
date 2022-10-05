@@ -9,7 +9,7 @@ int main()
 	
 	printf("\n    ▄▄▄██▀▀▀▓█████  ██▀███   ██ ▄█▀\n      ▒██   ▓█   ▀ ▓██ ▒ ██▒ ██▄█▒\n      ░██   ▒███   ▓██ ░▄█ ▒▓███▄░\n   ▓██▄██▓  ▒▓█  ▄ ▒██▀▀█▄  ▓██ █▄\n    ▓███▒   ░▒████▒░██▓ ▒██▒▒██▒ █▄\n    ▒▓▒▒░   ░░ ▒░ ░░ ▒▓ ░▒▓░▒ ▒▒ ▓▒\n    ▒ ░▒░    ░ ░  ░  ░▒ ░ ▒░░ ░▒ ▒░\n    ░ ░ ░      ░     ░░   ░ ░ ░░ ░\n    ░   ░      ░  ░   ░     ░  ░\n\n  ██████ ▄▄▄█████▓ ▒█████   ██▀███  ▓█████\n▒██    ▒ ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒▓█   ▀\n░ ▓██▄   ▒ ▓██░ ▒░▒██░  ██▒▓██ ░▄█ ▒▒███\n  ▒   ██▒░ ▓██▓ ░ ▒██   ██░▒██▀▀█▄  ▒▓█  ▄\n▒██████▒▒  ▒██▒ ░ ░ ████▓▒░░██▓ ▒██▒░▒████▒\n▒ ▒▓▒ ▒ ░  ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░░ ▒░ ░\n░ ░▒  ░ ░    ░      ░ ▒ ▒░   ░▒ ░ ▒░ ░ ░  ░\n░  ░  ░    ░      ░ ░ ░ ▒    ░░   ░    ░\n      ░               ░ ░     ░        ░  ░\n");
 	sleep(2);
-	printf("\n\nJERK STORE  v0.01\n");
+	printf("\n\nJERK STORE  v0.02\n");
 	sleep(1);
 	printf("A gritty tale of existensial horror by Jeremy Bird\n\n");
 	sleep(2);
@@ -20,7 +20,7 @@ int main()
 	
 	printf("\nIn a dark corner of a dark room, atop a dark table...\n");
 	sleep(3);
-	printf("\n\tA telephone.\n\n");
+	printf("\n\ta telephone.\n\n");
 	sleep(3);
 	
 	// THE RING
@@ -29,23 +29,23 @@ int main()
 	sleep(3);
 	printf("\n*RING RING*");
 	// I need help to make a loop that the phone will keep ringing after every 2 seconds until the player presses Enter.
-	while(getchar()!='\n');
+	while(getchar()!='\n')
 	{
-		sleep(2);
+		sleep(3);
 		printf("\n*RING RING*");
 	}
 	
 	// THE CALL
 	
-	printf("\n\nYou pick up the handset.\n");
+	printf("\n\nYou collect the handset and draw it near to your ear and mouth.\n");
 	sleep(3);
-	printf("\nYou:	Hello?\n	(Your voice quivers.)\n");
+	printf("\nYou:	Hello?\n\t(Your voice quivers.)\n");
 	sleep(3);
-	printf("\nVoice:	It's the JERK STORE calling.\n");
-	sleep(5);
+	printf("\nCaller:	It's the JERK STORE calling.\n");
+	sleep(3);
 	printf("\nYou:	...\n");
-	sleep(5);
-	printf("\nVoice:	We're running out of you.\n");
+	sleep(3);
+	printf("\nCaller:	We're running out of you.\n");
 	sleep(2);
 	printf("\n	*Click*\n");
 	sleep(10);
@@ -55,7 +55,11 @@ int main()
 	printf("\nYou ponder the futility of your existence.\n");
 	sleep(5);
 	printf("\n\tMotionless.\n");
-	sleep(10);
+	sleep(5);
+	printf("\n\tDread and despair grip your feeble heart.\n");
+	sleep(5);
+	printf("\n\tYour mind is lost to the depths of eternity unfathomable.\n");
+	sleep(20);
 	printf("\nYour hands have withered now. The world is not as clear as it once seemed...\n");
 	sleep(5);
 	printf("\n\tlong ago...\n");
